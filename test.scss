@@ -7,6 +7,9 @@
   font-family: "GraphikLCG";
 }
 @media screen and (max-width: 576px) {
+  .border {
+    border: #ff6336;
+  }
   .menu {
     > img {
       zoom: 0.4;
@@ -27,12 +30,17 @@
   .content-h,
   body .content-p .content-img {
     zoom: 0.4;
+    font-size: 12 !important;
+    margin: 0 10px;
   }
 }
 @media all and (min-width: 576px) and (max-width: 767px) {
-  *body {
+  *body,
+  .border {
     background-color: #dabc98;
     zoom: 0.5;
+
+    margin: auto 12px;
   }
 }
 // @media (min-width: 768px) and (max-width: 991px) {
@@ -43,7 +51,7 @@
 // }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .contact {
+  *body {
     margin: calc(20px+ (75-20) * ((100vw-576px) / (1440-576)));
   }
 }
@@ -190,12 +198,12 @@ body {
   margin-top: 25px;
 }
 .container {
-  height: 455px;
+  max-height: 455px;
   background: #ff9c7d;
 }
 .sub-container {
   display: flex;
-  width: 1290px;
+  max-width: 1290px;
   height: 53px;
   justify-content: space-between;
   margin-bottom: 104px;
@@ -228,7 +236,7 @@ body {
   margin-top: 250px;
 }
 .control-one {
-  width: 658px;
+  max-width: 658px;
 }
 .p-l {
   padding-left: 138px;

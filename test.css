@@ -8,6 +8,9 @@
 }
 
 @media all and (max-width: 576px) {
+  .menu {
+    background-color: #daef83;
+  }
   .menu > img {
     zoom: 0.4;
   }
@@ -23,12 +26,21 @@
   .content-h,
   .content-p .content-img {
     zoom: 0.4;
+    margin: 0 10px;
+  }
+  body {
+    zoom: 0.4;
   }
 }
 @media all and (min-width: 576px) and (max-width: 767px) {
   * body {
     background-color: #dabc98;
     zoom: 0.5;
+
+    margin: auto 12px;
+  }
+  .border {
+    zoom: 0.8;
   }
 }
 .fw-600 {
@@ -187,13 +199,13 @@ body {
 }
 
 .container {
-  height: 455px;
+  max-height: 455px;
   background: #ff9c7d;
 }
 
 .sub-container {
   display: flex;
-  width: 1290px;
+  max-width: 1290px;
   height: 53px;
   justify-content: space-between;
   margin-bottom: 104px;
@@ -207,7 +219,7 @@ body {
   font-weight: 600;
   font-size: 50px;
   line-height: 60px;
-  width: 720px;
+  max-width: 720px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -231,7 +243,7 @@ body {
 }
 
 .control-one {
-  width: 658px;
+  max-width: 658px;
 }
 
 .p-l {
@@ -367,7 +379,7 @@ body {
 }
 
 .wp3-3 {
-  width: 281px;
+  max-width: 281px;
 }
 
 .boost {
@@ -386,8 +398,8 @@ body {
 }
 
 .sub-boost {
-  width: 440px;
-  height: 609px;
+  max-width: 440px;
+  max-height: 609px;
 }
 
 .sub-img1 {
@@ -415,7 +427,7 @@ body {
 .mt-p {
   margin-top: 34px;
   margin-bottom: 25px;
-  width: 409px;
+  max-width: 409px;
 }
 
 .sub-a {
@@ -450,7 +462,7 @@ body {
 
 .bg-revolut {
   background-color: #c9e8f2;
-  height: 468px;
+  max-height: 468px;
   margin-top: 187px;
 }
 
@@ -464,7 +476,7 @@ body {
 
 .bg-da {
   background-color: #dabc98;
-  height: 332px;
+  max-height: 332px;
 }
 
 .most {
@@ -480,7 +492,7 @@ body {
   font-size: 35px;
   line-height: 50px;
   color: #000000;
-  width: 461px;
+  max-width: 461px;
   padding-left: 67px;
 }
 
@@ -509,11 +521,11 @@ body {
 
 .pt {
   padding-top: 165px;
-  width: 791px;
+  max-width: 791px;
 }
 
 .integrate-p {
-  width: 539px;
+  max-width: 539px;
 }
 
 .btn-integrate {
@@ -525,7 +537,7 @@ body {
 
 .made {
   background-color: #ff9c7d;
-  height: 603px;
+  max-height: 603px;
   display: flex;
   justify-content: center;
 }
@@ -544,7 +556,7 @@ body {
   color: #000000;
   padding-top: 119px;
   padding-bottom: 29px;
-  width: 784px;
+  max-width: 784px;
   margin: 0 auto;
 }
 
@@ -589,8 +601,8 @@ body {
 }
 
 .sub-one {
-  width: 370px;
-  height: 587px;
+  max-width: 370px;
+  max-height: 587px;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
