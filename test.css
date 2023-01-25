@@ -148,7 +148,7 @@ body {
   display: flex;
   justify-content: flex-end;
   margin-top: 151px;
-  width: 759px;
+  max-width: 759px;
   height: 529px;
   margin-right: 67px;
 }
@@ -159,7 +159,7 @@ body {
   line-height: 70px;
   color: #000000;
   margin-top: 129px;
-  width: 552px;
+  max-width: 552px;
 }
 
 .content-p {
@@ -167,7 +167,7 @@ body {
   font-size: 25px;
   line-height: 35px;
   color: #000000;
-  width: 471px;
+  max-width: 471px;
   margin-top: 51px;
 }
 
@@ -274,7 +274,7 @@ body {
 }
 
 .w-h {
-  width: 493px;
+  max-width: 493px;
 }
 
 .fw-p {
@@ -287,7 +287,7 @@ body {
 }
 
 .w {
-  width: 491px;
+  max-width: 491px;
 }
 
 .start {
@@ -299,15 +299,15 @@ body {
 }
 
 .w-2 {
-  width: 379px;
+  max-width: 379px;
 }
 
 .w-p2 {
-  width: 450px;
+  max-width: 450px;
 }
 
 .w-p3 {
-  width: 520px;
+  max-width: 520px;
 }
 
 .pink {
@@ -348,7 +348,7 @@ body {
 }
 
 .main-one {
-  width: 330px;
+  max-width: 330px;
   height: 294px;
   text-align: center;
 }
@@ -614,7 +614,7 @@ body {
 }
 
 .sub-img {
-  width: 80px;
+  max-width: 80px;
   height: 32px;
   padding-top: 31px;
 }
@@ -626,7 +626,7 @@ body {
   color: #000000;
   margin-top: 10px;
   margin-bottom: 15px;
-  width: 292px;
+  max-width: 292px;
 }
 
 .footer-h3 {
@@ -663,7 +663,7 @@ body {
 
 .ul {
   margin-left: 34px;
-  width: 187px;
+  max-width: 187px;
 }
 
 .ul > li {
@@ -702,5 +702,5 @@ body {
   font-size: 12px;
   line-height: 15px;
   padding-left: 14px;
-  width: 301px;
+  max-width: 301px;
 } /*# sourceMappingURL=test.css.map */
